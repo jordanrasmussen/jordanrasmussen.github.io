@@ -1,24 +1,21 @@
+---
+layout: null
+---
 <?xml version="1.0" encoding="UTF-8"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
 	<channel>
-		<title></title>
-		<description>Blog of many things.</description>
-		<link>/</link>
-		<atom:link href="/feed.xml" rel="self" type="application/rss+xml" />
-		
+		<title>{{ site.title }}</title>
+		<description>{{ site.description }}</description>
+		<link>{{ site.BASE_PATH }}/</link>
+		<atom:link href="{{ site.BASE_PATH }}/{{ site.rss_path }}" rel="self" type="application/rss+xml" />
+		{% for post in site.posts limit:10 %}
 			<item>
-				<title>The First</title>
-				<description>&lt;p&gt;So here it is. My new/first Blog! I finally sat down and decided to so something cool with my limited down time (Yes, I’m also watching Netflix at the moment) and create &lt;a href=&quot;blog.jrasmussen.me&quot;&gt;this&lt;/a&gt;.&lt;/p&gt;
-
-&lt;p&gt;I’m going to use this blog to openly talk about any and all things that I find worth of placing here.&lt;/p&gt;
-
-&lt;p&gt;Enjoy!&lt;/p&gt;
-
-</description>
-				<pubDate>Tue, 03 Feb 2015 15:00:00 -0800</pubDate>
-				<link>/general/2015/02/03/The-First.html</link>
-				<guid isPermaLink="true">/general/2015/02/03/The-First.html</guid>
+				<title>{{ post.title }}</title>
+				<description>{{ post.content | xml_escape }}</description>
+				<pubDate>{{ post.date | date: "%a, %d %b %Y %H:%M:%S %z" }}</pubDate>
+				<link>{{ site.BASE_PATH }}{{ post.url }}</link>
+				<guid isPermaLink="true">{{ site.BASE_PATH }}{{ post.url }}</guid>
 			</item>
-		
+		{% endfor %}
 	</channel>
 </rss>
