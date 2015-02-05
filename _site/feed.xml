@@ -2,12 +2,12 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
 	<channel>
 		<title></title>
-		<description>Blog of many things.</description>
+		<description>the blog of many things.</description>
 		<link>/</link>
 		<atom:link href="/feed.xml" rel="self" type="application/rss+xml" />
 		
 			<item>
-				<title>The First</title>
+				<title>The First!</title>
 				<description>&lt;p&gt;So here it is. My new/first Blog! I finally sat down and decided to so something cool with my limited down time (Yes, I’m also watching Netflix at the moment) and create &lt;a href=&quot;blog.jrasmussen.me&quot;&gt;this&lt;/a&gt;.&lt;/p&gt;
 
 &lt;p&gt;I’m going to use this blog to openly talk about any and all things that I find worth of placing here.&lt;/p&gt;

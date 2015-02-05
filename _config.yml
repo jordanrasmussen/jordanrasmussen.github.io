@@ -3,7 +3,7 @@
 paginate: 10 # pagination based on number of posts
 paginate_path: "page:num"
 exclude: ["README.md"] # files to exclude
-highlighter: rouge
+highlighter: pygments
 markdown: kramdown
 
 
@@ -12,9 +12,9 @@ defaults:
     scope:
       path: "" # empty string for all files
     values:
-      title: dbyll
+      title: yelling in code
 
-description: Blog of many things.
+description: the blog of many things.
 author:
   name: Jordan
   email: rasmussen.jordan@yahoo.com
