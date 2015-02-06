@@ -12,7 +12,7 @@ defaults:
     scope:
       path: "" # empty string for all files
     values:
-      title: yelling in code
+      title: sudoish things
 
 description: the blog of many things.
 author:
