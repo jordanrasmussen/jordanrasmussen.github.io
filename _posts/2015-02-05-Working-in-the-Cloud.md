@@ -22,7 +22,7 @@ Fast forwarding to the present, I'm using a Windows laptop with a 2nd gen i7 and
 <strong>but I still miss my chomebook.</strong> Since I have such a capable (but bulky) laptop I haven't been able to justify spending my precious
 money on another Chromebook until now. 
 
-Enter, Cloud9[https://c9.io/] an online IDE that gives you small but capable Ubuntu vm and a beautiful inferface. I was able to create an account using 
+Enter, [Cloud9][https://c9.io/] an online IDE that gives you small but capable Ubuntu vm and a beautiful inferface. I was able to create an account using 
 my GitHub credentials, clone the repo containing my blog and start making this post. It's amazingly convient and it allows me to work on whatever I want 
 in my own personal workspace that I control. All in the cloud. 
 
