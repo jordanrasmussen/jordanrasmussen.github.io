@@ -11,7 +11,7 @@ I would use it all day during class and come home with enough charge to last me 
 There were some days where I forgot to charge it the night before and it was still able to get me through most of the day. 
 
 I used a somewhat crude combination of Google Drive and Github for all my school work. It wasn't perfect but it worked for me. Using crouton I was also
-able to get ubuntu running on this little wonder so I cloud complete my C++ assignments on it without relying on my Windows desktop. For no particular reason,
+able to get ubuntu running on this little wonder so I could complete my C++ assignments on it without relying on my Windows desktop. For no particular reason,
 my professor at the time prefered assignments be done on a Windows machine with Visual Studio or on a Mac with XCode.
 
 Unfortunatly, shortly after setting up Ubuntu, and maximiseing my productivity my trusty Chrombook suffered from an accedent that rendered it unusable. 
