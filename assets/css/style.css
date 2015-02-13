@@ -26,6 +26,10 @@ body{
 	color: #fff;
 }
 
+.title-logo {
+	top: -5px;
+}
+
 a.nav-link {
 	padding-bottom: 5px;
 	padding-top: 7px;
